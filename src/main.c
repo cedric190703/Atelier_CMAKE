@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
         char* a = argv[2];
         double r = 0;
 
-        if (strcmp(op, "square") == 0) {
+        if (strcmp(op, "car") == 0) {
             r = _car(atof(a));
         } else {
             printf("Erreur : opération inconnue\n");
